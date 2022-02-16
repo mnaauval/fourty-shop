@@ -69,7 +69,7 @@ const Navbar = () => {
                   </div>
 
                   {/* Trigger Mobile Button */}
-                  <div className="flex sm:hidden">
+                  <div className="flex hidden">
                     <Disclosure.Button className="text-gray-400 hover:text-white hover:bg-gray-700 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">{open ? <XIcon className="block h-7 w-7" /> : <MenuIcon className="block h-7 w-7" />}</Disclosure.Button>
                   </div>
                 </div>
