@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="hidden">
               <div className="pb-3 mt-3 px-2 spacey-y-1">
                 {navigation.map((item) => (
                   <Disclosure.Button key={item.name} as={NavLink} to={item.path} className={classNames(item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white", "block px-3 py-2 rounded-md text-base font-medium")} aria-current={item.current ? "page" : undefined}>
